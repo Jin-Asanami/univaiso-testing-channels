@@ -9,7 +9,6 @@ git clone https://github.com/Jin-Asanami/univaiso-testing-channels
 cd univaiso-unofficial-channels
 sudo mkunivaiso -v <desktop>/<locale>
 ```
+I will add desktops and locales in a few days, so please wait a little longer.
 
-Choose from "lxqt-zen" for "desktop" and "en_US" or "ja_JP" for "locale"
-
-"desktop"を「lxqt-zen」から、「locale」を「en_US」(アメリカ語)か「ja_JP」(日本語)からお選び下さい。
+デスクトップとロケールは近いうちに追加するのでもう少しお待ち下さいな。
