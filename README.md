@@ -1,5 +1,5 @@
 # univaiso-channels
-Channels for UniVaISO.
+Unofficial channels for UniVaISO.
 
 UniVaISO用の非公式チャンネルです。
 
