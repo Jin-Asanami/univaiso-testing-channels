@@ -5,7 +5,7 @@ UniVaISO用の実験用チャンネルです。安定用チャンネルはこち
 
 ## Usage 使用法
 ```bash
-git clone https://github.com/Jin-Asanami/univaiso-unofficial-channels
+git clone https://github.com/Jin-Asanami/univaiso-testing-channels
 cd univaiso-unofficial-channels
 sudo mkunivaiso -v <desktop>/<locale>
 ```
