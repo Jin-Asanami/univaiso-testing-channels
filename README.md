@@ -1,7 +1,7 @@
-# univaiso-channels
-Unofficial channels for UniVaISO.
+# univaiso-testing-channels
+Testing channels for UniVaISO.
 
-UniVaISO用の非公式チャンネルです。
+UniVaISO用の実験用チャンネルです。
 
 ## Usage 使用法
 ```bash
