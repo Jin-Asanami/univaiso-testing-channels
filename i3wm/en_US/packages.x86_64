@@ -103,9 +103,9 @@ xl2tpd
 zsh
 
 #Univalent GNU/Linux i3wm
-
 xorg-server
 xorg-xrandr
+xorg-xinit
 acpilight
 xdg-user-dirs
 bash-completion
@@ -124,7 +124,6 @@ lxappearance
 adapta-gtk-theme
 betterlockscreen
 polybar
-ttf-sazanami
 siji
 xorg-fonts-misc
 thunar
