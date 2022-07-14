@@ -127,6 +127,7 @@ ttf-sazanami
 siji
 xorg-fonts-misc
 thunar
+xterm
 
 #Installer
 grub
