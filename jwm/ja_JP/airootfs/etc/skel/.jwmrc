@@ -1,13 +1,11 @@
 <?xml version="1.0"?>
 <JWM>
 
-    <StartupCommand>
-    cbatticon
-    fcitx5
-    nm-applet
-    volumeicon
-    chromium
-    </StartupCommand>
+    <StartupCommand>cbatticon</StartupCommand>
+    <StartupCommand>fcitx5</StartupCommand>
+    <StartupCommand>nm-applet</StartupCommand>
+    <StartupCommand>volumeicon</StartupCommand>
+    <StartupCommand>chromium</StartupCommand>
     <!-- The root menu. -->
     <RootMenu onroot="12">
         <Program icon="utilities-terminal" label="端末エミュレータ">xfce4-terminal</Program>
@@ -36,7 +34,7 @@
         <Menu icon="folder" label="設定">
             <Program icon="font" label="外観">lxappearance</Program>
             <Program icon="font" label="電源管理">gnome-power-statistics</Program>
-            <Program icon="font" label="ネットワーク設定">xterm -e 'nmtui'</Program>
+            <Program icon="font" label="ネットワーク設定">nm-connection-editor</Program>
             <Program icon="preferences-desktop-screensaver" label="XScreenSaver 設定">xscreensaver-settings</Program>
             <Program icon="fcitx" label="Fcitx5 設定">fcitx5-configtool</Program>
             <Program icon="info" label="画面のプロパティ">
