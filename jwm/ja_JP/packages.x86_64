@@ -122,6 +122,7 @@ thunar
 pavucontrol
 volumeicon
 cbatticon
+gnome-power-manager
 
 #Installer
 grub
