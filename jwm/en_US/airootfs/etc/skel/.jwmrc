@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <JWM>
-    <StartupCommand>nm-tray</StartupCommand>
+    <StartupCommand>nm-applet</StartupCommand>
     <StartupCommand>chromium</StartupCommand>
     <!-- The root menu. -->
     <RootMenu onroot="12">
