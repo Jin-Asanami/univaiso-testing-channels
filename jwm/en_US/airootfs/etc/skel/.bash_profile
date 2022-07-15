@@ -4,3 +4,4 @@
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 xdg-user-dirs-update
+chromium
