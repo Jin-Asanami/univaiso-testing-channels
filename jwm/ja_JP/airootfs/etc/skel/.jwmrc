@@ -2,6 +2,7 @@
 <JWM>
 
     <StartupCommand>fcitx5</StartupCommand>
+    <StartupCommand>nm-tray</StartupCommand>
     <StartupCommand>chromium</StartupCommand>
     <!-- The root menu. -->
     <RootMenu onroot="12">
