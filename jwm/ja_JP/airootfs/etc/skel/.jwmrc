@@ -14,7 +14,6 @@
             <Program icon="calc" label="Galculator">galculator</Program>
             <Program icon="archive-manager" label="XArchiver">xarchiver</Program>
             <Program icon="featherpad" label="FeatherPad">featherpad</Program>
-            <Program icon="input-keyboard" label="キーボードレイアウトビューアー">featherpad</Program>
         </Menu>
         <Menu icon="folder" label="Internet">
             <Program icon="chromium" label="Chromium">chromium</Program>
@@ -35,7 +34,7 @@
         <Menu icon="folder" label="Settings">
             <Program icon="font" label="外観">lxappearance</Program>
             <Program icon="font" label="電源管理">xfce4-power-manager</Program>
-            <Program icon="font" label="ネットワーク設定">network-manager-applet</Program>
+            <Program icon="font" label="ネットワーク設定">xterm -e 'nmtui'</Program>
             <Program icon="preferences-desktop-screensaver" label="XScreenSaver 設定">xscreensaver-settings</Program>
             <Program icon="fcitx" label="Fcitx5 設定">fcitx5-configtool</Program>
             <Program icon="info" label="画面のプロパティ">
