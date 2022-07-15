@@ -162,6 +162,8 @@ yay
 zip
 ristretto
 xfce4-terminal
+vlc
+xterm
 
 #Japanese Input
 fcitx5
@@ -169,4 +171,4 @@ fcitx5-configtool
 fcitx5-gtk
 fcitx5-mozc
 fcitx5-qt
-vlc
+
