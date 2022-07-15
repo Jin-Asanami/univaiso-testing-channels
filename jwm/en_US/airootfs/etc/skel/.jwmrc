@@ -1,11 +1,10 @@
 <?xml version="1.0"?>
 <JWM>
-    <StartupCommand>
-    cbatticon
-    nm-applet
-    volumeicon
-    chromium
-    </StartupCommand>
+    <StartupCommand>cbatticon</StartupCommand>
+    <StartupCommand>nm-applet</StartupCommand>
+    <StartupCommand>volumeicon</StartupCommand>
+    <StartupCommand>chromium</StartupCommand>
+    
     <!-- The root menu. -->
     <RootMenu onroot="12">
         <Program icon="utilities-terminal" label="Terminal">xfce4-terminal</Program>
@@ -34,7 +33,7 @@
         <Menu icon="folder" label="Settings">
             <Program icon="font" label="Appearance">lxappearance</Program>
             <Program icon="font" label="Power Manager">gnome-power-statistics</Program>
-            <Program icon="font" label="Network Settings">xterm -e 'nmtui'</Program>
+            <Program icon="font" label="Network Settings">nm-connection-editor</Program>
             <Program icon="preferences-desktop-screensaver" label="XScreenSaver Settings">xscreensaver-settings</Program>
             <Program icon="info" label="Window Properties">
                 xprop | xmessage -file -
