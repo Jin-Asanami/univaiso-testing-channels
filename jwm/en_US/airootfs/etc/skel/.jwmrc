@@ -33,8 +33,8 @@
         </Menu>
         <Menu icon="folder" label="Settings">
             <Program icon="font" label="Appearance">lxappearance</Program>
-            <Program icon="font" label="Power Manager">xfce4-power-manager</Program>
-            <Program icon="font" label="Network Settings">network-manager-applet</Program>
+            <Program icon="font" label="Power Manager">gnome-power-statistics</Program>
+            <Program icon="font" label="Network Settings">xterm -e 'nmtui'</Program>
             <Program icon="preferences-desktop-screensaver" label="XScreenSaver Settings">xscreensaver-settings</Program>
             <Program icon="info" label="Window Properties">
                 xprop | xmessage -file -
