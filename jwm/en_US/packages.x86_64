@@ -102,7 +102,7 @@ xfsprogs
 xl2tpd
 zsh
 
-#Univalent GNU/Linux i3wm
+#Univalent GNU/Linux JWM
 jwm
 xorg-server
 lightdm
@@ -114,6 +114,8 @@ network-manager-applet
 gvfs
 neofetch
 pulseaudio-alsa
+noto-fonts
+noto-fonts-cjk
 
 #Installer
 grub
