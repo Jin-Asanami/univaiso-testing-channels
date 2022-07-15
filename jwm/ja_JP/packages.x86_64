@@ -118,10 +118,10 @@ noto-fonts
 noto-fonts-cjk
 gnome-keyring
 xfce4-notifyd
-plasma-pa
 thunar
 pavucontrol
 volumeicon
+cbatticon
 
 #Installer
 grub
