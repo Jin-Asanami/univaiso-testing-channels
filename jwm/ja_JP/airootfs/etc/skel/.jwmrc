@@ -1,39 +1,40 @@
 <?xml version="1.0"?>
 <JWM>
 
-    <StartupCommand>cbatticon</StartupCommand>
-    <StartupCommand>fcitx5</StartupCommand>
-    <StartupCommand>nm-applet</StartupCommand>
-    <StartupCommand>volumeicon</StartupCommand>
-    <StartupCommand>chromium</StartupCommand>
+    <StartupCommand>
+    cbatticon
+    fcitx5
+    nm-applet
+    volumeicon
+    chromium
     <!-- The root menu. -->
     <RootMenu onroot="12">
-        <Program icon="utilities-terminal" label="Terminal">xfce4-terminal</Program>
-        <Menu icon="folder" label="Accesories">
+        <Program icon="utilities-terminal" label="端末エミュレータ">xfce4-terminal</Program>
+        <Menu icon="folder" label="アクセサリ">
             <Program icon="system-file-manager" label="Thunar">thunar ~</Program>
             <Program icon="calc" label="Galculator">galculator</Program>
             <Program icon="archive-manager" label="XArchiver">xarchiver</Program>
             <Program icon="featherpad" label="FeatherPad">featherpad</Program>
         </Menu>
-        <Menu icon="folder" label="Internet">
+        <Menu icon="folder" label="インターネット">
             <Program icon="chromium" label="Chromium">chromium</Program>
         </Menu>
-        <Menu icon="folder" label="Sound and Video">
+        <Menu icon="folder" label="サウンドとビデオ">
             <Program icon="vlc" label="VLCメディアプレイヤー">vlc</Program>
             <Program icon="disk-burner" label="XfBurn">xfburn</Program>
         </Menu>
-        <Menu icon="folder" label="Graphics">
+        <Menu icon="folder" label="グラフィック">
             <Program icon="image-viewer" label="Ristretto">ristretto</Program>
         </Menu>
-        <Menu icon="folder" label="Utilities">
+        <Menu icon="folder" label="ユーティリティ">
             <Program icon="gparted" label="GParted">gparted</Program>
             <Program icon="package" label="Pamac ソフトウェアセンター">pamac-manager</Program>
             <Program icon="utilities-system-monitor" label="KSysGuard">ksysguard</Program>
             <Program icon="applets-screenshooter" label="スクリーンショット">xfce4-screenshooter</Program>
         </Menu>
-        <Menu icon="folder" label="Settings">
+        <Menu icon="folder" label="設定">
             <Program icon="font" label="外観">lxappearance</Program>
-            <Program icon="font" label="電源管理">xfce4-power-manager</Program>
+            <Program icon="font" label="電源管理">gnome-power-statistics</Program>
             <Program icon="font" label="ネットワーク設定">xterm -e 'nmtui'</Program>
             <Program icon="preferences-desktop-screensaver" label="XScreenSaver 設定">xscreensaver-settings</Program>
             <Program icon="fcitx" label="Fcitx5 設定">fcitx5-configtool</Program>
