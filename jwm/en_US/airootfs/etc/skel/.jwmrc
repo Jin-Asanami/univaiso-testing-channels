@@ -1,7 +1,11 @@
 <?xml version="1.0"?>
 <JWM>
-    <StartupCommand>nm-applet</StartupCommand>
-    <StartupCommand>chromium</StartupCommand>
+    <StartupCommand>
+    cbatticon
+    nm-applet
+    volumeicon
+    chromium
+    </StartupCommand>
     <!-- The root menu. -->
     <RootMenu onroot="12">
         <Program icon="utilities-terminal" label="Terminal">xfce4-terminal</Program>
