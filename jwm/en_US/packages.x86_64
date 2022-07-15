@@ -103,31 +103,17 @@ xl2tpd
 zsh
 
 #Univalent GNU/Linux i3wm
+jwm
 xorg-server
-xorg-xrandr
-xorg-xinit
-acpilight
+lightdm
+lightdm-gtk-greeter
 xdg-user-dirs
 bash-completion
 networkmanager
 network-manager-applet
-lightdm
-xf86-input-libinput
-lightdm-gtk-greeter
-i3-gaps
-kitty
-rofi
+gvfs
 neofetch
-feh
-picom
-lxappearance
-adapta-gtk-theme
-betterlockscreen
-polybar
-siji
-xorg-fonts-misc
-thunar
-xterm
+pulseaudio-alsa
 
 #Installer
 grub
@@ -153,6 +139,7 @@ fdclone
 featherpad
 git
 galculator
+lxappearance
 libpamac-aur
 pamac-aur
 papirus-icon-theme
@@ -165,10 +152,5 @@ xarchiver
 xfburn
 yay
 zip
-
-#Japanese Input
-fcitx5
-fcitx5-configtool
-fcitx5-gtk
-fcitx5-mozc
-fcitx5-qt
+ristretto
+xfce4-terminal
