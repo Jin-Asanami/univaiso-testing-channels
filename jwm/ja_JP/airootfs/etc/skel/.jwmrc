@@ -1,6 +1,8 @@
 <?xml version="1.0"?>
 <JWM>
 
+    <StartupCommand>fcitx5</StartupCommand>
+    <StartupCommand>chromium</StartupCommand>
     <!-- The root menu. -->
     <RootMenu onroot="12">
         <Program icon="utilities-terminal" label="Terminal">xfce4-terminal</Program>
