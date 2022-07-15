@@ -3,21 +3,40 @@
 
     <!-- The root menu. -->
     <RootMenu onroot="12">
-        <Program icon="utilities-terminal" label="Terminal">xterm</Program>
-        <Menu icon="folder" label="Applications">
-            <Program icon="sound" label="Audacious">audacious</Program>
-            <Program icon="calc" label="Calculator">xcalc</Program>
-            <Program icon="web-browser" label="Firefox">firefox</Program>
-            <Program icon="image" label="Gimp">gimp</Program>
-            <Program icon="email" label="Mail">claws-mail</Program>
-            <Program icon="system-file-manager" label="ROX">rox ~</Program>
+        <Program icon="utilities-terminal" label="Terminal">xfce4-terminal</Program>
+        <Menu icon="folder" label="Accesories">
+            <Program icon="system-file-manager" label="Thunar">thunar ~</Program>
+            <Program icon="calc" label="Galculator">galculator</Program>
+            <Program icon="archive-manager" label="XArchiver">xarchiver</Program>
+            <Program icon="featherpad" label="FeatherPad">featherpad</Program>
+            <Program icon="input-keyboard" label="キーボードレイアウトビューアー">featherpad</Program>
+        </Menu>
+        <Menu icon="folder" label="Internet">
+            <Program icon="chromium" label="Chromium">chromium</Program>
+        </Menu>
+        <Menu icon="folder" label="Sound and Video">
+            <Program icon="vlc" label="VLCメディアプレイヤー">vlc</Program>
+            <Program icon="disk-burner" label="XfBurn">xfburn</Program>
+        </Menu>
+        <Menu icon="folder" label="Graphics">
+            <Program icon="image-viewer" label="Ristretto">ristretto</Program>
         </Menu>
         <Menu icon="folder" label="Utilities">
-            <Program icon="font" label="Fonts">xfontsel</Program>
-            <Program icon="info" label="Window Properties">
+            <Program icon="gparted" label="GParted">gparted</Program>
+            <Program icon="package" label="Pamac ソフトウェアセンター">pamac-manager</Program>
+            <Program icon="utilities-system-monitor" label="KSysGuard">ksysguard</Program>
+            <Program icon="applets-screenshooter" label="スクリーンショット">xfce4-screenshooter</Program>
+        </Menu>
+        <Menu icon="folder" label="Settings">
+            <Program icon="font" label="外観">lxappearance</Program>
+            <Program icon="font" label="電源管理">xfce4-power-manager</Program>
+            <Program icon="font" label="ネットワーク設定">network-manager-applet</Program>
+            <Program icon="preferences-desktop-screensaver" label="XScreenSaver 設定">xscreensaver-settings</Program>
+            <Program icon="fcitx" label="Fcitx5 設定">fcitx5-configtool</Program>
+            <Program icon="info" label="画面のプロパティ">
                 xprop | xmessage -file -
             </Program>
-            <Program icon="info" label="Window Information">
+            <Program icon="info" label="画面の情報">
                 xwininfo | xmessage -file -
             </Program>
         </Menu>
@@ -35,7 +54,7 @@
         <Option>tiled</Option>
     </Group>
     <Group>
-        <Name>xterm</Name>
+        <Name>xfce4-terminal</Name>
         <Option>vmax</Option>
     </Group>
     <Group>
@@ -190,6 +209,7 @@
     <Key mask="A" key="Left">ldesktop</Key>
     <Key mask="A" key="Up">udesktop</Key>
     <Key mask="A" key="Down">ddesktop</Key>
+    <Key mask="CA" key="t">exec:xfce4-terminal</Key>
 
     <!-- Mouse bindings -->
     <Mouse context="root" button="4">ldesktop</Mouse>
