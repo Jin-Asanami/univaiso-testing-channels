@@ -1,8 +1,10 @@
 <?xml version="1.0"?>
 <JWM>
 
+    <StartupCommand>cbatticon</StartupCommand>
     <StartupCommand>fcitx5</StartupCommand>
     <StartupCommand>nm-applet</StartupCommand>
+    <StartupCommand>volumeicon</StartupCommand>
     <StartupCommand>chromium</StartupCommand>
     <!-- The root menu. -->
     <RootMenu onroot="12">
