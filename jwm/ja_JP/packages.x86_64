@@ -120,6 +120,8 @@ gnome-keyring
 xfce4-notifyd
 plasma-pa
 thunar
+pavucontrol
+volumeicon
 
 #Installer
 grub
