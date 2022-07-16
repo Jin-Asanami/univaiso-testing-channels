@@ -24,12 +24,12 @@
         </Menu>
         <Menu icon="folder" label="グラフィック">
             <Program icon="image-viewer" label="Ristretto">ristretto</Program>
+            <Program icon="applets-screenshooter" label="スクリーンショット">screengrab</Program>
         </Menu>
         <Menu icon="folder" label="ユーティリティ">
             <Program icon="gparted" label="GParted">gparted</Program>
             <Program icon="package" label="Pamac ソフトウェアセンター">pamac-manager</Program>
-            <Program icon="utilities-system-monitor" label="KSysGuard">ksysguard</Program>
-            <Program icon="applets-screenshooter" label="スクリーンショット">xfce4-screenshooter</Program>
+            <Program icon="utilities-system-monitor" label="htop">xfce4-terminal -e 'htop'</Program>
         </Menu>
         <Menu icon="folder" label="設定">
             <Program icon="font" label="外観">lxappearance</Program>
@@ -145,19 +145,19 @@
          for icons in multiple paths.
       -->
     <IconPath>
-      /usr/share/icons/Tango/scalable/actions
+      /usr/share/icons/Papirus/16x16/actions
     </IconPath>
     <IconPath>
-      /usr/share/icons/Tango/scalable/apps
+      /usr/share/icons/Papirus/16x16/apps
     </IconPath>
     <IconPath>
-      /usr/share/icons/Tango/scalable/places
+      /usr/share/icons/Papirus/16x16/places
     </IconPath>
     <IconPath>
-      /usr/share/icons/Tango/scalable/status
+      /usr/share/icons/Papirus/16x16/status
     </IconPath>
     <IconPath>
-      /usr/share/icons/Tango/scalable/mimetypes
+      /usr/share/icons/Papirus/16x16/mimetypes
     </IconPath>
     <IconPath>
       /usr/share/jwm
@@ -202,6 +202,7 @@
     <Key key="l">right</Key>
     <Key key="Return">select</Key>
     <Key key="Escape">escape</Key>
+    <Key key="Print">exec:screengrab</Key>
 
     <Key mask="A" key="Tab">nextstacked</Key>
     <Key mask="A" key="F4">close</Key>
