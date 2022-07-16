@@ -13,6 +13,7 @@
             <Program icon="calc" label="Galculator">galculator</Program>
             <Program icon="archive-manager" label="XArchiver">xarchiver</Program>
             <Program icon="featherpad" label="FeatherPad">featherpad</Program>
+            <Program icon="vim" label="Vim">xfce4-terminal -e 'vim'</Program>
         </Menu>
         <Menu icon="folder" label="Internet">
             <Program icon="chromium" label="Chromium">chromium</Program>
