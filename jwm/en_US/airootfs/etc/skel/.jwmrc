@@ -32,7 +32,7 @@
             <Program icon="utilities-system-monitor" label="htop">xfce4-terminal -e 'htop'</Program>
         </Menu>
         <Menu icon="folder" label="Settings">
-            <Program icon="preferences-desktop-theme" label="Configuration Centre">xfce4-settings-manager</Program>
+            <Program icon="preferences-desktop" label="Configuration Centre">xfce4-settings-manager</Program>
             <Program icon="preferences-system-power-management" label="Power Manager">gnome-power-statistics</Program>
             <Program icon="preferences-system-network" label="Network Settings">nm-connection-editor</Program>
             <Program icon="preferences-desktop-screensaver" label="XScreenSaver Settings">xscreensaver-settings</Program>
