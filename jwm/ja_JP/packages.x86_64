@@ -164,6 +164,8 @@ zip
 ristretto
 xfce4-terminal
 vlc
+screengrab
+htop
 
 #Japanese Input
 fcitx5
