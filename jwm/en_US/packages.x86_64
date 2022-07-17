@@ -166,3 +166,12 @@ xfce4-terminal
 vlc
 screengrab
 htop
+
+# Printer Settings
+cups
+ghostscript
+gsfonts
+cups-pdf
+poppler
+a2ps
+system-config-printer

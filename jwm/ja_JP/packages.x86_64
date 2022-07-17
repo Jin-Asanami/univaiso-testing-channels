@@ -174,3 +174,11 @@ fcitx5-gtk
 fcitx5-mozc
 fcitx5-qt
 
+# Printer Settings
+cups
+ghostscript
+gsfonts
+cups-pdf
+poppler
+a2ps
+system-config-printer
