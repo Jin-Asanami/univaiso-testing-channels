@@ -38,6 +38,7 @@
             <Program icon="preferences-system-network" label="ネットワーク設定">nm-connection-editor</Program>
             <Program icon="preferences-desktop-screensaver" label="XScreenSaver 設定">xscreensaver-settings</Program>
             <Program icon="fcitx" label="Fcitx5 設定">fcitx5-configtool</Program>
+            <Program icon="printer" label="印刷設定">system-config-printer</Program>
             <Program icon="info" label="画面のプロパティ">
                 xprop | xmessage -file -
             </Program>

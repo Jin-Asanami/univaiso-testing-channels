@@ -36,6 +36,7 @@
             <Program icon="preferences-system-power-management" label="Power Manager">gnome-power-statistics</Program>
             <Program icon="preferences-system-network" label="Network Settings">nm-connection-editor</Program>
             <Program icon="preferences-desktop-screensaver" label="XScreenSaver Settings">xscreensaver-settings</Program>
+            <Program icon="printer" label="Print Settings">system-config-printer</Program>
             <Program icon="info" label="Window Properties">
                 xprop | xmessage -file -
             </Program>
