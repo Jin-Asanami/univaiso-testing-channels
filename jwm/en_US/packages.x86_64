@@ -144,7 +144,6 @@ archlinux-appstream-data-pamac
 base-devel
 chromium
 curl
-fdclone
 featherpad
 git
 galculator
