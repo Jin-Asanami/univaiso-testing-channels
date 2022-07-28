@@ -7,5 +7,7 @@ UniVaISO用の実験用チャンネルです。安定用チャンネルはこち
 ```bash
 git clone https://github.com/Jin-Asanami/univaiso-testing-channels
 cd univaiso-unofficial-channels
-sudo mkunivaiso -v jwm/<locale>
+sudo mkunivaiso -v <channel>/<locale>
 ```
+
+今後PlasmaとかGNOMEとか追加予定。
